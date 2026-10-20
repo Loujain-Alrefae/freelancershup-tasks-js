@@ -18,7 +18,7 @@ function calculate() {
   const bill = Number(billInput.value);
   const tipPercent = Number(tipSelect.value)
   const people = Number(peopleInput.value);
- 
+
   // TODO 3: if bill is not above 0 → show the error, clear the result, and stop
   //         if (!(bill > 0)) {
   //           errorEl.textContent = "Please enter a bill amount.";

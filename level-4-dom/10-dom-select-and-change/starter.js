@@ -13,7 +13,8 @@
 //         const title = document.querySelector("#title");
 //         title.textContent = "...";
 const title = document.querySelector("#title");
-title.textContent = "Loujain";
+title.textContent = "Loujain ";
+//title.innerHTML  = "<em>Sara</em>";
 
 // TODO 2: select .subtitle and set its text to "Learning JavaScript"
 const subtitle = document.querySelector(".subtitle");

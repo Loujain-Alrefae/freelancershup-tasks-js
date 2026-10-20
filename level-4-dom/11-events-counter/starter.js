@@ -56,4 +56,9 @@ document.addEventListener("keydown", (event) => {
 });
 
 // Draw the page once at the start, so it's right before any click.
+document.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowUp") plusBtn.click();
+  if (event.key === "ArrowDown" && count > 0) minusBtn.click();
+});
+
 render();
